@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*text-decoration: none;*/
+}
+
+/*  Estilos para el icono del Menú*/
+
+.icono-menu{
+    margin: -60px 40px;
+    position: relative;
+    z-index: 10;
+}   
+
+.icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor:pointer;
+}
+
+/* Estilos para el contenedor del Menú */
+
+.cont-menu {
+    background-color: rgba(42,42,42);
+    box-shadow: 2px 0px 5px rgb(66,66,66);
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:  all .5s ease;
+}
+
+/* Estilos por agregar en JavaScript */
+
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: rgba(0,0,0,0.5);
+    transition: all .5s ease;
+}
+
+
+/* Estilos para el listado del Menú */
+
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.co {
+    color:#fff;
+    text-decoration: none;
+}
+.cont-menu ul li{
+    color:white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+
+
+/* Estilo barra nav */
+
+.nav{
+    display: flex;
+    align-items: center;
+
+
+}
+.barra{
+    display: flex;
+    flex-flow: row;
+    height: 80px;
+    justify-content:center ;
+    padding: 20px;
+    align-items: center;
+    background-color: blueviolet;
+    list-style-type: none ;
+  
+}
+    .barra a{
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 25px;
+        text-decoration: none;
+        color: #fff;
+   
+    }
+
+container{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    align-items: center;
+    background-color: bisque;
+}
+.footer{
+    display: flex;
+    border: 1px solid#000;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-size: 30px;
+    height: 200px;
+    background-color: rgba(42,42,42);
+    color: blanchedalmond;
+    font-style: italic;
+}
+
